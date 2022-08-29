@@ -15,6 +15,7 @@ public void name() {
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.google.com");
 	System.out.println("end");
+	System.out.println("bye");
 	
 }
 	
