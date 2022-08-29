@@ -10,6 +10,7 @@ public class NewClass {
 @Test	
 public void name() {
 	
+	System.out.println("hi how are you");
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.google.com");
